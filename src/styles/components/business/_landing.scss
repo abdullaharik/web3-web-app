@@ -84,6 +84,7 @@
   @media (max-width: map-get($breakpoints, "md")) {
     .lnd-5-title {
       text-align: left;
+      line-height: 1.1;
     }
     .lnd-5-logos {
       width: 100%;
