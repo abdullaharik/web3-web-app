@@ -89,6 +89,15 @@
       width: 100%;
       margin-bottom: 2rem;
     }
+    .lnd-7-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      & > * {
+        width: 100%;
+      }
+    }
   }
   @media (min-width: map-get($breakpoints, "md")) {
     .lnd-5-title {
